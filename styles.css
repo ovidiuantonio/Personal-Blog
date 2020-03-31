@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    width: 95vw;
+    height: 20vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 3rem;
+    margin: auto;
+}
+
+.title h1 {
+    font-weight: 200;
+    color: #606c76;
+}
+
+.content {
+    width: 95vw;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+}
+
+.content__sidebar {
+    flex: 1;
+    width: 20vw;
+}
+
+.sidebar__links {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.sidebar__links a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #02B9E9;
+    line-height: 5rem;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-follow {
+    padding: 1rem 4rem;
+    background-color: #02B9E9;
+    border: .1rem solid #02B9E9;
+    border-radius: .5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.btn-subscribe {
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+    background-color: #fff;
+    border: .1rem solid #02B9E9;
+    border-radius: .5rem;
+    color: #02B9E9;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.content__posts {
+    flex: 3;
+    width: 65vw;
+    height: 70vh;
+}
+
+.posts__title {
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 1rem 0;
+}
+
+.posts {
+    display: flex;
+    justify-content: start;
+    flex-flow: row wrap;
+}
+
+.post {
+    width: 25rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    height: 30rem;
+    background-color: #d1d1d1;
+    border-radius: .5rem;
+    display: block;
+}
+
+.post h2 {
+    padding: 1rem .7rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.post a {
+    text-decoration: none;
+    color: #02B9E9;
+}
+
+.post p {
+    padding: 1rem .7rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+footer {
+    width: 92.5vw;
+    height: 13vh;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: #606c76;
+    position: absolute;
+    top: 100vh;
+    transform: translateY(-100%);
+    display: flex;
+    left: 2.5vw;
+    text-align: left;
+    padding: 2vh 0 0 2vw;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+footer h3 {
+    font-weight: 200;
+}
+
+@media (max-width: 1265px) and (min-width: 826px) {
+    footer {
+        transform: translateY(301%);
+    }
+}
+
+@media (max-width: 845px) {
+
+    .post {
+        width: 60rem;
+        height: 20rem;
+    }
+
+    footer {
+        transform: translateY(401%);
+    }
+}
