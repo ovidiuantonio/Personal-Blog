@@ -42,6 +42,7 @@ body {
 .sidebar__links {
     list-style: none;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .sidebar__links a{
@@ -145,11 +146,24 @@ footer h3 {
 
 @media (max-width: 1265px) and (min-width: 826px) {
     footer {
-        transform: translateY(301%);
+        transform: translateY(401%);
     }
 }
 
 @media (max-width: 845px) {
+
+    .title {
+        justify-content: center;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar__links {
+        text-align: center;
+    }
 
     .post {
         width: 60rem;
@@ -157,6 +171,20 @@ footer h3 {
     }
 
     footer {
-        transform: translateY(401%);
+        transform: translateY(801%);
+    }
+}
+
+@media (max-width: 700px) and (min-width: 100px) {
+    .content__sidebar {
+        width: 100vw;
+    }
+
+    .post {
+        height: 25rem;
+    }
+
+    footer {
+        transform: translateY(1001%);
     }
 }
