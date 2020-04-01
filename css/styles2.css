@@ -1,0 +1,116 @@
+.content-blog {
+    width: 70vw;
+    height: auto;
+    margin: auto;
+}
+
+.back-div {
+    padding: 2rem 0;
+}
+
+.back {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #02B9E9;
+    font-weight: 200;
+}
+
+.blog__title {
+    font-size: 3.7rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+.author {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #606c76;
+    margin-right: 1rem;
+}
+
+.user__info h6 {
+    font-size: 1.5rem;
+    color: #02B9E9;
+    font-weight: 400;
+}
+
+.post__text {
+    margin: 3rem 0;
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+
+.post__text span {
+    text-decoration: underline;
+}
+
+.note {
+    background-color: #fafafa;
+    border-left: 3px solid black;
+    padding: 1.5rem 0 1.5rem 2rem;
+}
+
+.note q {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.banner {
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 200;
+}
+
+.strong-text {
+    font-size: 1.5rem;
+}
+
+.note-2 {
+    margin: 2rem 0;
+    background-color: #fafafa;
+    border-left: 3px solid #02B9E9;
+    padding: 1.5rem 0 1.5rem 4rem;
+    font-weight: lighter;
+}
+
+.note-2 q {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.list {
+    font-size: 1.5rem;
+    margin: 3rem 0 3rem 1.5rem;
+    line-height: 3rem;
+}
+
+.social {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.social a {
+    line-height: 4rem;
+    text-decoration: none;
+    color: #02B9E9;
+}
