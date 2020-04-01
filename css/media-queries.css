@@ -94,3 +94,17 @@
     }
 
 }
+
+@media (max-width: 300px) {
+    .content {
+        justify-content: center;
+        margin: auto;
+        grid-template-columns: 100vw;
+        grid-template-areas: 
+        "title"
+        "sidebar"
+        "posts"
+        "footer";
+        grid-template-rows: 20vh 75vh 45vh 10vh;
+    }
+}
