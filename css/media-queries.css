@@ -78,7 +78,7 @@
         "sidebar"
         "posts"
         "footer";
-        grid-template-rows: 20vh 55vh 55vh 10vh;
+        grid-template-rows: 20vh 55vh 50vh 10vh;
     }
 
     footer {
